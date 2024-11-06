@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+import java.time.LocalDateTime;
 
-public class note {
+public interface Note {
+    LocalDateTime getDateTime();
+    String getDescription();
 }

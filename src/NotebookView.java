@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+import java.util.List;
 
-public class NotebookView {
+public interface NotebookView {
+    void displayNotes(List<Note> notes);
+    void displayMessage(String message);
 }
